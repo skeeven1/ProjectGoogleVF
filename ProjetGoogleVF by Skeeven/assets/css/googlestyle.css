@@ -1,0 +1,155 @@
+.flex_end {
+    
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    
+}
+
+a{
+    color: black
+}
+
+a{
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.button_login{
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    height: 33px;
+    width: 70px;
+    background: #4786f3;
+    color:white;
+    font-size: 13px;
+    }
+
+img{
+    position: relative;
+    top: 219px;
+}
+
+
+
+.MargeSearch {
+    position:absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+.search{
+    position: absolute;
+    top: 400px;
+    z-index: 1;
+    
+    font-size: 15px;
+    margin-top: -25px;
+    margin-left: -318px;
+    height: 42px;
+    width: 530px;
+    border-radius: 30px;
+    border: 1px solid #ccc
+}
+
+.search_ic{
+    position: relative;
+    top:258px;
+    left:-270px;
+    border-style: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 23px;
+    z-index:2;
+    color:#ccc;
+    
+}
+
+.mic_ic{
+    position: relative;
+    top:258px;
+    border-style: none;
+    cursor: pointer;
+    
+    background-color: transparent;
+    font-size: 23px;
+    z-index:2;
+    right: -270px;
+    color:#ccc
+}
+    
+
+
+.button_2 {
+    display: flex;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+    margin-top: 142px;
+    padding: 9px 20px;
+    color: #555;
+    font-size: 14px;
+    border-radius: 4px;
+    border:1px solid transparent;
+    
+    
+}
+
+footer{
+    bottom:0;
+    min-height: 9%;
+    max-height: 35%;
+    background-color: rgb(240, 240, 240);
+    position: absolute;
+    width: 100%;
+    display: table-row;
+}
+
+
+.footer_main {
+    margin-top: 35px;
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+#left_words{
+
+    display: flex;
+    gap: 20px;
+}
+
+#right_words{
+
+    display: flex;
+    gap: 20px;
+}
+
+
+.footer_color {
+    color: rgb(121, 118, 118);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.htlm, body {
+    margin:0;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+    
