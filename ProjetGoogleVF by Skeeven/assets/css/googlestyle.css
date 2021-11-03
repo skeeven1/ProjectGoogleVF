@@ -3,6 +3,19 @@
     display: flex;
     justify-content: flex-end;
     gap: 20px;
+    padding-top: 22px;
+    
+}
+
+.Gmail:hover{
+    text-decoration: underline;
+}
+
+.Pictures:hover{
+    text-decoration: underline;
+}
+
+.multi_cone:hover{
     
 }
 
@@ -16,6 +29,13 @@ a{
     font-size: 14px;
 }
 
+.Gmail{
+    color: black;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 14px;
+
+}
 .button_login{
     border-radius: 4px;
     cursor: pointer;
@@ -57,8 +77,8 @@ img{
 
 .search_ic{
     position: relative;
-    top:258px;
-    left:-270px;
+    top:237px;
+    left:-280px;
     border-style: none;
     cursor: pointer;
     background-color: transparent;
@@ -70,7 +90,7 @@ img{
 
 .mic_ic{
     position: relative;
-    top:258px;
+    top:237px;
     border-style: none;
     cursor: pointer;
     
@@ -95,8 +115,13 @@ img{
     font-size: 14px;
     border-radius: 4px;
     border:1px solid transparent;
+
     
     
+}
+
+.button_2:hover {
+    border:red
 }
 
 footer{
@@ -107,6 +132,7 @@ footer{
     position: absolute;
     width: 100%;
     display: table-row;
+    
 }
 
 
@@ -118,18 +144,46 @@ footer{
     flex-wrap: wrap;
 
 }
-#left_words{
+.left_words{
 
     display: flex;
     gap: 20px;
 }
 
-#right_words{
+#Publicity:hover{
+    text-decoration: underline;
+    
+}
+
+#Compagny:hover{
+    text-decoration: underline;
+}
+
+#About:hover{
+    text-decoration: underline;
+}
+
+#HDGSW:hover{
+    text-decoration: underline;
+}
+
+.right_words{
 
     display: flex;
     gap: 20px;
 }
 
+#Consumer_Info:hover{
+    text-decoration: underline;
+}
+
+#Confidentiality:hover{
+    text-decoration: underline;
+}
+
+#Settings:hover{
+    text-decoration: underline;
+}
 
 .footer_color {
     color: rgb(121, 118, 118);
@@ -142,6 +196,7 @@ footer{
     display: table;
     height: 100%;
     width: 100%;
+  
 }
 
 
